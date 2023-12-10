@@ -19,7 +19,7 @@ connection = pymysql.connect(host=host, user=user, password=password)
 # Create a cursor object to interact with the database
 cursor = connection.cursor()
 
-# SQL query to create a new database named "pre"
+# SQL query to create a new database named "codebasics2"
 database_name = "codebasics2"
 create_database_query = f"CREATE DATABASE IF NOT EXISTS {database_name}"
 
