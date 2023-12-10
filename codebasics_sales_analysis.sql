@@ -1,5 +1,4 @@
-drop database codebasics;
-drop database pre;
+
 
 use codebasics2;
 select * from df2;
